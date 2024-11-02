@@ -121,3 +121,4 @@ alias ls='ls --color=auto --block-size=KiB'
 export PATH=$PATH:/usr/local/go/bin
 alias dc=cd
 alias gst='git status'
+tmux
