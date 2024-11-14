@@ -121,4 +121,4 @@ alias ls='ls --color=auto --block-size=KiB'
 export PATH=$PATH:/usr/local/go/bin
 alias dc=cd
 alias gst='git status'
-tmux
+tmux attach -t hold-session >/dev/null 2>&1 || tmux new-session -t hold-session >/dev/null 2>&1
